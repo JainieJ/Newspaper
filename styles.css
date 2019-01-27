@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+.heading {
+	font-size: 45px;
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	width: 98%;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.ai-stretch {
+	align-items: stretch;
+}
+
+/*styling boxes equally
+*/
+.child-box {
+	padding: 15px 10px;
+	line-height: 1.5;
+}
+
+/*   */
+
+.box-1 {
+	border-right: 1px solid black;
+	width: 25%;
+}
+
+.box-2 {
+	border-right: 1px solid black;
+	width: 50%;
+}
+
+/*aligning the image*/
+
+.image-container {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.placeholder-pic {
+	width: 100%;
+	height: auto;
+}
+
+/*    */
+
+.box-3 {
+	width: 25%;
+}
+
+/*styling the h2 equally*/
+
+.heading-2 {
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/*   */
+
+/*The second container*/
+
+.flex-container-2 {
+	display: flex;
+	width: 98%;
+	border: 1px solid black;
+	margin: auto;
+	border-top: none;
+}
+
+.box-4 {
+	width: 25%;
+	border-right: 1px solid black;
+}
+
+.box-5 {
+	width: 75%;
+}
+
+/*styling the 5th box
+*/
+
+.inner-flex-container {
+	display: flex;
+	height: 20%;
+	align-items: center;
+   }
+
+.title {
+    margin-left: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+div a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.title:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.color-1 {
+	background-color: #F0F8FF;
+}
+
+.color-2 {
+	background-color: #FAEBD7;
+}
+
+.color-3 {
+	background-color: #00FFFF;
+}
+
+.color-4 {
+	background-color: #7FFFD4;
+}
+
+.color-5 {
+	background-color: #F0FFFF;
+}
+
+
+
